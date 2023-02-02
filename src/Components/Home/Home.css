@@ -1,0 +1,65 @@
+.home {
+    height: 400px;
+    color: white;
+    position: relative;
+}
+
+.home-content {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.home-content h3 {
+    margin-top: 20px;
+    color: rgb(242, 227, 13);
+}
+
+.button-for-action {
+    display: flex;
+}
+
+.hire-me-button {
+    background-color: #FF854C;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid white;
+    font-size: 17px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hire-me-button:hover {
+    background-color: white;
+    width: 250px;
+    color: black;
+    transition-duration: 1s;
+}
+
+.get-resume-button {
+    background-color: orange;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid white;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.get-resume-button:hover {
+    background-color: rgb(247, 228, 11);
+    width: 250px;
+    color: black;
+    transition-duration: 1s;
+}
+
+.get-resume-button a {
+    text-decoration: none;
+    color: black;
+}
